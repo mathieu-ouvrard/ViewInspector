@@ -149,7 +149,6 @@
 		F614E66625B36ACC000C4F66 /* InspectableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F614E66525B36ACC000C4F66 /* InspectableViewTests.swift */; };
 		F620C7FB2537B090006D856D /* ConfigurationModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F620C7FA2537B090006D856D /* ConfigurationModifiers.swift */; };
 		F62AEAFC23E705D6003E69D9 /* ViewHostingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62AEAFB23E705D5003E69D9 /* ViewHostingTests.swift */; };
-		F62D69902507FA0C00335BCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62D698F2507FA0C00335BCC /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F639DBBD23A6B318003A6FED /* PreviewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639DBBC23A6B318003A6FED /* PreviewModifiers.swift */; };
 		F639DBBF23A6CF03003A6FED /* AccessibilityModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639DBBE23A6CF03003A6FED /* AccessibilityModifiers.swift */; };
 		F639DBC323A7DDA2003A6FED /* TouchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F639DBC223A7DDA2003A6FED /* TouchBar.swift */; };
@@ -551,7 +550,6 @@
 			buildActionMask = 0;
 			files = (
 				52510DCE25E1486200A84CB8 /* SwiftUI.framework in Frameworks */,
-				F62D69902507FA0C00335BCC /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

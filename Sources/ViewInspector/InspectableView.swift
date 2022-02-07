@@ -1,5 +1,4 @@
 import SwiftUI
-import XCTest
 
 @available(iOS 13.0, macOS 10.15, tvOS 13.0, *)
 public struct InspectableView<View> where View: KnownViewType {
@@ -168,7 +167,7 @@ public extension View {
         do {
             try inspection(try inspect(function: function))
         } catch {
-            XCTFail("\(error.localizedDescription)", file: file, line: line)
+            print("\(error.localizedDescription) file: \(file), line: \(line)")
         }
     }
 }
@@ -188,7 +187,7 @@ public extension View where Self: Inspectable {
         do {
             try inspection(try inspect(function: function))
         } catch {
-            XCTFail("\(error.localizedDescription)", file: file, line: line)
+            print("\(error.localizedDescription) file: \(file), line: \(line)")
         }
     }
 }
@@ -208,7 +207,7 @@ public extension ViewModifier where Self: Inspectable {
         do {
             try inspection(try inspect(function: function))
         } catch {
-            XCTFail("\(error.localizedDescription)", file: file, line: line)
+            print("\(error.localizedDescription) file: \(file), line: \(line)")
         }
     }
 }
